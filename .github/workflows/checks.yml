@@ -15,7 +15,7 @@ jobs:
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
         run: npm ci
   test:
-    needs: lint
+    needs: install_dependencies
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
