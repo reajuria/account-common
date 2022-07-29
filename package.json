@@ -1,6 +1,6 @@
 {
   "name": "@reajuria/account-common",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Account common library",
   "main": "dist/account-client.js",
   "types": "dist/account-client.d.ts",
